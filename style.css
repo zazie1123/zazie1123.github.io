@@ -1,13 +1,13 @@
 .top{
-    background-color: #B5B4DB;
+    background-color: #6b68be;
     padding: 10px;
-    height: 250px;
+    height: 20%;
 }
 .top_logo{
     background-color: #B5B4DB;
-    height: 220px;
-    width: 600px;
-    padding-top: 30px;
+    height: 100%;
+    width: 25%;
+    padding-top: 2%;
 }
 .top_cushion{
     background-color: #B5B4DB;
