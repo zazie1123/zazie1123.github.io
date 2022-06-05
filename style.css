@@ -1,30 +1,37 @@
 .top{
     background-color: #6b68be;
     padding: 10px;
-    height: 20%;
+    width: 100%;
+    height: 10%;
 }
 .top_logo{
-    background-color: #B5B4DB;
+    background-color: #f04343;
     height: 100%;
     width: 25%;
     padding-top: 2%;
 }
 .top_cushion{
     background-color: #B5B4DB;
-    height: 250px;
-    width: 550px;
+    height: 100%;
+    width: 20%;
 }
 .top_icon{
-    background-color: #B5B4DB;
-    height: 160px;
-    width: 180px;
-    padding-top: 90px;
+    background-color: #c9dea2;
+    height: 100%;
+    width: 20%;
+    padding-top: 2%;
 }
 .float_left{
     float: left;
 }
 .float_right{
     float: right;
+}
+.clear{
+    clear:both; 
+    height: 0; 
+    line-height: 0; 
+    font-size: 0
 }
 .main{
     width: 1500px;
