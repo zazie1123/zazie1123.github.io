@@ -199,7 +199,7 @@ img{
 }
 .flexb {
     display: flex;
-    height: 30vh;
+    height: 20vh;
     padding: 15px;
     background-color: #B5B4DB;
     flex-direction: row;
@@ -215,3 +215,49 @@ img{
     font-size: 1rem;
     flex-wrap: wrap;
   }
+  .blogo{
+      margin-top:-20%;
+  }
+  .btext {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item_btext {
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+..ClearFloat::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.Info {
+    
+}
+
+.Info_l{
+    float: left;
+    /* height: 500px; */
+    width: 60px;
+}
+.Info_r{
+    float: left;
+    /* height: 500px; */
+    width: 60px;
+}
+
+.itembott{
+    height: 30px;
+    width: 50px;
+    text-align: center;
+}
