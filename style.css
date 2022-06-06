@@ -1,5 +1,5 @@
 body{
-    
+    margin: 0;
 }
 .body_inline_block{
     margin: 0;
@@ -11,7 +11,7 @@ body{
 }
 .flex {
     display: flex;
-    height: 20vh;
+    height: 10vh;
     padding: 15px;
     background-color: #B5B4DB;
     flex-direction: row;
@@ -27,7 +27,19 @@ body{
     color: white;
     font-size: 2rem;
   }
-  
+  .item1 {
+    flex: 2;
+    background-color: #B5B4DB;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  .smallcushion{
+      width: 10px;
+  }
   .flex-2 {
     flex-grow: 3;
     flex-shrink: 1;
