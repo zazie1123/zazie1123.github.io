@@ -123,6 +123,20 @@ img{
 .shita{
     height: 40px;
 }
+.scroll{
+    width: 95%;
+    height: 40%;
+    overflow: scroll;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+    
+    margin: auto;
+}
+.scroll_img{
+    display: inline-block;
+}
 .box0{
     /* background-color: #61a0f8; */
     width: 45%;
@@ -288,4 +302,8 @@ img{
     text-align: center;
     font-size: 0.7rem;
     font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.Info_natsu{
+    float: left;
+    height: fit-content;
 }
