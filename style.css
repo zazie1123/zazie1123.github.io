@@ -1,23 +1,27 @@
-body{
+body {
     margin: 0;
+    overflow-x:hidden;
 }
-.body_inline_block{
+
+.body_inline_block {
     margin: 0;
-    background-color:#F8EED1;
+    background-color: #F8EED1;
     display: inline-block;
 }
-.inline_block{
+
+.inline_block {
     display: inline-block;
 }
+
 .flex {
     display: flex;
     height: 10vh;
     padding: 15px;
     background-color: #B5B4DB;
     flex-direction: row;
-  }
-  
-  .item {
+}
+
+.item {
     flex: 1;
     background-color: #B5B4DB;
     margin: 5px;
@@ -26,8 +30,9 @@ body{
     align-items: center;
     color: white;
     font-size: 2rem;
-  }
-  .item1 {
+}
+
+.item1 {
     flex: 2;
     background-color: #B5B4DB;
     margin: 5px;
@@ -36,94 +41,114 @@ body{
     align-items: center;
     color: white;
     font-size: 2rem;
-  }
-  .smallcushion{
-      width: 10px;
-  }
-  .flex-2 {
+}
+
+.smallcushion {
+    width: 10px;
+}
+
+.flex-2 {
     flex-grow: 3;
     flex-shrink: 1;
     flex-basis: 0%;
     background-color: #B5B4DB;
-  }
-.top{
+}
+
+.top {
     background-color: #B5B4DB;
     padding: 20px;
     width: 100vw;
     height: 15vh;
 }
-.top_logo{
+
+.top_logo {
     background-color: #B5B4DB;
     height: 100%;
     width: 25%;
     padding-top: 2%;
 }
-.top_cushion{
+
+.top_cushion {
     background-color: #B5B4DB;
     height: 100%;
     width: 10%;
 }
-.top_icon{
+
+.top_icon {
     background-color: #B5B4DB;
     height: 100%;
     width: 10%;
     padding-top: 2%;
 }
-.float_left{
+
+.float_left {
     float: left;
 }
-.float_right{
+
+.float_right {
     float: right;
 }
-.clear{
-    clear:both; 
-    height: 0; 
-    line-height: 0; 
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
     font-size: 0
 }
-.main{
+
+.main {
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid red; */
 }
-.main_introtext{
+
+.main_introtext {
     width: 80%;
     background-color: #FFFFFF;
     color: #333333;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
-    
+
 }
-.main_title{
+
+.main_title {
     line-height: 30%;
     font-size: 1.8rem;
 }
-img{
+
+img {
     display: block;
     margin: 0 auto;
 }
-.main_img{
+
+.main_img {
     padding-top: 10%;
 }
-.imgcenter{ 
-    max-width:100%; 
+
+.imgcenter {
+    max-width: 100%;
     /* max-height:100%;  */
-   } 
-.text{
+}
+
+.text {
     text-align: center;
 }
-.title{
+
+.title {
     font-size: 1.3rem;
 }
-.font{
-    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+
+.font {
+    font-family: "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
 }
-.shita{
+
+.shita {
     height: 40px;
 }
-.scroll{
+
+.scroll {
     width: 95%;
     height: 40%;
     overflow: scroll;
@@ -131,19 +156,22 @@ img{
     overflow-x: auto;
     white-space: nowrap;
     text-align: center;
-    
+
     margin: auto;
 }
-.scroll_img{
+
+.scroll_img {
     display: inline-block;
 }
-.button{
-    
-    width:50%;
+
+.button {
+
+    width: 50%;
     background-color: #F8EED1;
-    border:0px;
+    border: 0px;
 }
-.box0{
+
+.box0 {
     /* background-color: #61a0f8; */
     width: 45%;
     padding-left: 0px;
@@ -151,24 +179,28 @@ img{
     display: inline-block;
     vertical-align: top;
 }
-.marginb{
+
+.marginb {
     margin-bottom: 20px;
 }
-.align{
+
+.align {
     text-align: center;
 }
-.bold{
+
+.bold {
     font-weight: bolder;
 }
+
 .content {
     display: flex;
     height: 45vh;
     padding: 15px;
     background-color: #61a0f8;
     flex-wrap: wrap;
-  }
-  
-  .box {
+}
+
+.box {
     flex: 0 0 47%;
     background-color: #f08bc3;
     margin-left: auto;
@@ -179,8 +211,9 @@ img{
     color: white;
     font-size: 2rem;
     height: 70%
-  }
-  .box2 {
+}
+
+.box2 {
     flex: 0 0 47%;
     background-color: #f08bc3;
     margin-left: auto;
@@ -191,8 +224,9 @@ img{
     color: white;
     font-size: 2rem;
     height: 8%
-  }
-  .box3 {
+}
+
+.box3 {
     flex: 0 0 47%;
     background-color: #f08bc3;
     margin-left: auto;
@@ -203,54 +237,64 @@ img{
     color: white;
     font-size: 2rem;
     height: 22%
-  }
-.introtext{
+}
+
+.introtext {
     padding: 10px;
 }
-.right_35px{
+
+.right_35px {
     padding-left: 5%;
 }
-.bottom{
+
+.bottom {
     background-color: #B5B4DB;
     padding: 10px;
     height: 50vh;
 }
-.bottom_logo{
+
+.bottom_logo {
     background-color: #B5B4DB;
     height: 500px;
     width: 700px;
 }
-.bottom_icon{
+
+.bottom_icon {
     background-color: #B5B4DB;
     height: 200px;
     width: 800px;
     padding-top: 300px;
 }
-.bottom_cushion{
+
+.bottom_cushion {
     background-color: #B5B4DB;
     height: 400px;
     width: 300px;
 }
-.bottom_text{
+
+.bottom_text {
     color: #ffffff;
     padding-top: 10px;
     font-size: 10px;
     text-align: center;
     line-height: 20px;
 }
-.share{
+
+.share {
     color: #ffffff;
     font-size: 40px;
     text-align: center;
 }
+
 .flexb {
     display: flex;
     height: 20vh;
     padding: 15px;
     background-color: #B5B4DB;
     flex-direction: row;
-  }
-  .itemb {
+}
+
+.itemb {
     flex: 1;
     background-color: #B5B4DB;
     margin: 5px;
@@ -260,16 +304,18 @@ img{
     color: white;
     font-size: 1rem;
     flex-wrap: wrap;
-  }
-  .blogo{
-      margin-top:-20%;
-  }
-  .btext {
+}
+
+.blogo {
+    margin-top: -20%;
+}
+
+.btext {
     display: flex;
     flex-direction: column;
-  }
-  
-  .item_btext {
+}
+
+.item_btext {
     flex: 1;
     margin: 5px;
     display: flex;
@@ -277,7 +323,8 @@ img{
     align-items: center;
     color: white;
     font-size: 2rem;
-  }
+}
+
 ..ClearFloat::after {
     clear: both;
     content: '';
@@ -287,29 +334,29 @@ img{
     visibility: hidden;
 }
 
-.Info {
-    
-}
+.Info {}
 
-.Info_l{
-    float: left;
-    /* height: 500px; */
-    width: 60px;
-}
-.Info_r{
+.Info_l {
     float: left;
     /* height: 500px; */
     width: 60px;
 }
 
-.itembott{
+.Info_r {
+    float: left;
+    /* height: 500px; */
+    width: 60px;
+}
+
+.itembott {
     height: 30px;
     width: 50px;
     text-align: center;
     font-size: 0.7rem;
-    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    font-family: "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
 }
-.Info_natsu{
+
+.Info_natsu {
     float: left;
     height: fit-content;
 }
@@ -321,9 +368,11 @@ img{
     height: 12px;
     width: 12px;
 }
+
 ::-webkit-scrollbar-button {
     /* background: transparent; */
 }
+
 ::-webkit-scrollbar-thumb {
     background: rgba(128, 134, 139, 0.2);
     background-clip: padding-box;
@@ -331,14 +380,17 @@ img{
     border-radius: 16px;
     box-sizing: border-box;
 }
+
 ::-webkit-scrollbar:hover {
     background: rgba(128, 134, 139, 0.102);
     border-radius: 16px;
     /* height: 16px; */
 }
+
 ::-webkit-scrollbar-track:hover {
     background: transparent;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(128, 134, 139, 0.4);
     background-clip: padding-box;
@@ -347,6 +399,7 @@ img{
     box-sizing: border-box;
     cursor: pointer;
 }
+
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
