@@ -137,6 +137,12 @@ img{
 .scroll_img{
     display: inline-block;
 }
+.button{
+    
+    width:50%;
+    background-color: #F8EED1;
+    border:0px;
+}
 .box0{
     /* background-color: #61a0f8; */
     width: 45%;
